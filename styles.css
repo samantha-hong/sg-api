@@ -2,6 +2,9 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Numans', sans-serif;*/
 
+/*    background-color:rgb(175, 155, 210);*/
+/* dark pink rgb(218, 95, 102);*/
+
 /*background image*/
 body{
     background-image: url('images/desktop-wp.jpg');
@@ -10,8 +13,29 @@ body{
 h1{
     font-family: 'Numans', sans-serif;
     text-align: center;
-    color: rgb(254, 203, 198);
-    text-shadow: 2px 2px 5px rgb(218, 95, 102);
+    color:  rgb(99,110,158);
+    text-shadow: 2px 2px 5px white;
     font-size: 5rem;
 }
 
+/*button*/
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 2vh 5vh;
+    border-radius: 10%;
+    border: 5px solid white;
+    background-color: rgb(160, 148, 193);
+}
+
+button h2{
+    font-family: 'Numans', sans-serif;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
