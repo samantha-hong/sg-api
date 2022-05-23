@@ -1,0 +1,17 @@
+/*font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Numans', sans-serif;*/
+
+/*background image*/
+body{
+    background-image: url('images/desktop-wp.jpg');
+}
+/*header*/
+h1{
+    font-family: 'Numans', sans-serif;
+    text-align: center;
+    color: rgb(254, 203, 198);
+    text-shadow: 2px 2px 5px rgb(218, 95, 102);
+    font-size: 5rem;
+}
+
