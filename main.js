@@ -1,7 +1,7 @@
 document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch(){
-    const url = `https://ghibliapi.herokuapp.com/films`
+    const url = `https://ghibliapi.herokuapp.com/films`;
 
 fetch(url)
     .then(res => res.json())
@@ -18,3 +18,11 @@ fetch(url)
         console.log(`error ${err}`)
     })
 }
+
+
+// const main = document.querySelector('#main');
+// document.querySelector('#button').addEventListener('click', hide);
+
+// function hide(){
+//     main.classList.toggle('hidden')
+// }
