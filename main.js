@@ -20,9 +20,9 @@ fetch(url)
 }
 
 
-// const main = document.querySelector('#main');
-// document.querySelector('#button').addEventListener('click', hide);
+const main = document.querySelector('#main');
+document.querySelector('#button').addEventListener('click', hide);
 
-// function hide(){
-//     main.classList.toggle('hidden')
-// }
+function hide(){
+    main.classList.remove('hidden');
+}
