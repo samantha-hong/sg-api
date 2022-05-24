@@ -109,7 +109,6 @@ button:hover{
     
     .info h3, .info h4{
         font-size: 1rem;
-        text-shadow: none;
     }
     .synopsis{
         flex-direction: column;
@@ -128,7 +127,6 @@ button:hover{
     h1{
         font-size: 2rem;
         color: white;
-        text-shadow: none;
     }
 
     button{
@@ -152,7 +150,6 @@ button:hover{
 
     #main h2{
         font-size: 1.25rem;
-        text-shadow: none;
         text-align: center;
     }
 
@@ -162,7 +159,6 @@ button:hover{
     
     .info h3, .info h4{
         font-size: 0.75rem;
-        text-shadow: none;
     }
     .synopsis{
         flex-direction: column;
